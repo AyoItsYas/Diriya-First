@@ -8,7 +8,7 @@
 
 
 .logo1{
-    width: 70px;
+    width: 100px;
     cursor: pointer;
 }
 
@@ -55,7 +55,7 @@ ul{
 header{
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("/Desktop/test last/Images/construct0.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("/static/images/construct0.jpg");
     background-position: bottom;
     background-size: cover;
     display: flex;
@@ -159,22 +159,22 @@ section{
 }
 
 .card1{
-    background-image: url("/Desktop/test last/Images/cons1.jpg");
+    background-image: url("/static/images/cons1.jpg");
 }
 .card2{
-    background-image: url("/Desktop/test last/Images/cons2.jpg");
+    background-image: url("/static/images/cons2.jpg");
 }
 .card3{
-    background-image: url("/Desktop/test last/Images/gar1.png");
+    background-image: url("/static/images/gar1.png");
 }
 .card4{
-    background-image: url("/Desktop/test last/Images/gar2.jpg");
+    background-image: url("/static/images/gar2.jpg");
 }
 .card5{
-    background-image: url("/Desktop/test last/Images/fish1.jpg");
+    background-image: url("/static/images/fish1.jpg");
 }
 .card6{
-    background-image: url("/Desktop/test last/Images/fish01.jpg");
+    background-image: url("/static/images/fish01.jpg");
 }
 
 .ctn1{
@@ -188,12 +188,13 @@ section{
 .explore{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("/Desktop/test last/Images/beach.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("/static/images/beach.jpg");
     background-position:center ;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .explore-content{
@@ -203,6 +204,7 @@ section{
     display: flex;
     align-items: center;
     flex-direction: column;
+    
 }
 
 .explore-content h1{
@@ -224,6 +226,7 @@ section{
 
 .explore-content p{
     color: rgb(222, 215, 215);
+    
 }
 
 
@@ -261,7 +264,7 @@ section{
         width: 100%;
         height: 100vh;
         justify-content: center;
-        background: rgb(7, 123, 110);
+        background: rgb(5, 3, 54);
         margin-top: -900px;
         transition: all 0.5s ease;
         border-bottom-right-radius: 30%;
